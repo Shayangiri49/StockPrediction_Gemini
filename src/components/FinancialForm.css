@@ -1,0 +1,82 @@
+.form-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.896);
+}
+
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  /* width: fit-content;
+  position: static;
+  max-width: 240px; */
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: #818CF8;
+  font-weight: bold;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #e8e8e8;
+  width: fit-content;
+}
+
+.coolinput input{
+  width: 96%;
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #818CF8 solid;
+  border-radius: 5px;
+  background: #e8e8e8;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+.form-container div{
+    margin-bottom: 15px;
+}
+
+/* .form-container label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+} */
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 0.5em;
+  background: #90b089;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.loader{
+  margin-left: 45%;
+  color: rgba(246, 246, 96, 1);
+}
